@@ -5,15 +5,21 @@ Owangeg- FE500D
 yell tan- FEE24D
 pinko- FFA1FB
 */
-body {
- color: red;
-}
-
-
-
-.button-wrap {
+header h1 {
+    color: cadetblue;
+    font-size: 50px;
     text-align: center;
+    text-shadow: 
+        0 0 1px grey,
+        0 0 1px blue,
+        0 0 1px blue;
+    margin-bottom: 0;
 }
+
+
+/*HEADER END*/
+
+
 
 
 .image-content > img {
@@ -48,17 +54,6 @@ h4 > a:hover {
 }
 
 
-ul {
-    list-style-type: none;
-}
-
-header h1 {
-    color: red;
-    border: 3px solid lightblue;
-    font-size: 50px;
-    text-align: center;
-    
-}
 
 article h2 {
     color: green;
@@ -72,30 +67,6 @@ article p {
 }
 
 
-nav > ul > button {
-    border: none;
-    color: red;
-    font-size: 25px;
-    display: inline-block;
-    margin: 4;
-    transition: background-color .5s;
-    background-color: yellow;
-    min-width: 225px;
-}
-
-nav > ul {
-    color: white;
-    min-height: 40px;
-    padding: 15px 0 15px 0;
-}
-
-
-nav > ul > button:hover {
-    background-color: white;
-}    
-
-
-
 #aside-right h3 {
     text-align: center;
     padding-bottom: 0;
@@ -103,20 +74,6 @@ nav > ul > button:hover {
     margin: 0;
     color: saddlebrown;
 }
-
-
-#header h1 {
-    background-color: black;
-}
-
-
-
-#nav {
-    background-color: grey;
-    min-height: 30px;
-    height: auto;
-}
-
 
 
 
@@ -155,12 +112,10 @@ p {
 
     
 #favorite-sites {
-    border-bottom: 10px #F864E9 solid;
-    border-top: 7px #F864E9 solid;
-    margin-top: 120;
     display: flex;
     justify-content: center;
     width: 100%;
+    margin-left; 50px;
 }
 
 #aside-right h3 {
